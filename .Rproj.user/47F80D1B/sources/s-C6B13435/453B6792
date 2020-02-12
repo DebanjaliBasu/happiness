@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581457196493.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1816151364",
+    "id" : "453B6792",
+    "lastKnownWriteTime" : 1581515131,
+    "last_content_update" : 1581515131699,
+    "path" : "~/DSE midterm/happiness/R/map_happiness.R",
+    "project_path" : "R/map_happiness.R",
+    "properties" : {
+        "cursorPosition" : "3,178",
+        "scrollLine" : "3",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
