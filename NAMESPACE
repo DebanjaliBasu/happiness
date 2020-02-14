@@ -2,3 +2,4 @@
 
 export(get_data)
 export(map_happiness)
+export(run_shiny_application)
