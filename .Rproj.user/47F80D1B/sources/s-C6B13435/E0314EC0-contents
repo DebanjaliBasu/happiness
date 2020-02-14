@@ -1,4 +1,0 @@
-n <- rworldmap::joinCountryData2Map(df,joinCode="NAME",nameJoinColumn="country")
-
-rworldmap::mapCountryData(n, nameColumnToPlot="score",mapTitle="Happiness score across countries",oceanCol='lightblue', colourPalette='rainbow')
-
