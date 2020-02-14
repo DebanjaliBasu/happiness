@@ -8,6 +8,6 @@ Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp(>= 1.0.3),utils,rworldmap,ggplot2,DataExplorer,shiny,shinydashboard
+Imports: Rcpp(>= 1.0.3),utils,rworldmap,ggplot2,DataExplorer
 RoxygenNote: 7.0.2
 
