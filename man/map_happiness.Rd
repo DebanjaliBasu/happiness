@@ -4,7 +4,7 @@
 \alias{map_happiness}
 \title{Visualisation of country with its corresponding happiness score.}
 \usage{
-map_happiness(default = df)
+map_happiness()
 }
 \description{
 This function will create a color coded world map of happiness score,with red being the happiest and purple the least happy countries, using the rworldmap package.

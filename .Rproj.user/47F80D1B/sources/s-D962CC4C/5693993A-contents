@@ -1,12 +1,13 @@
-library(shiny)
-library(shinydashboard)
 
+df <- happiness::hap_data
 shinyServer(function(input,output){
     output$map <- renderPlot({
 
-        n <- rworldmap::joinCountryData2Map(df,joinCode="NAME",nameJoinColumn="country")
+        map_happiness()
 
-        rworldmap::mapCountryData(n, nameColumnToPlot="score",mapTitle="Happiness Score across Countries",oceanCol='lightblue', colourPalette='rainbow')
+        #n <- rworldmap::joinCountryData2Map(df,joinCode="NAME",nameJoinColumn="country")
+
+        #rworldmap::mapCountryData(n, nameColumnToPlot="score",mapTitle="Happiness Score across Countries",oceanCol='lightblue', colourPalette='rainbow')
     })
 
     output$tex <- renderText("Finland is the happiest country,whereas South Sudan is the least happy country.The countries in red such as Nordics,USA,Canada are the more happier countries

@@ -2,6 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(ggplot2)
 
+df <- happiness::hap_data
 shinyUI(
      dashboardPage(
             title='Happiness Analysis',
@@ -15,7 +16,7 @@ shinyUI(
                 menuItem("Detailed Analysis",tabName = "analysis",icon = icon("percent")),
                 menuItem("Raw Data",tabName = "data",icon = icon("table")),
                 menuItem("Conclusions",tabName = "conc",icon = icon("check"))
-           ) ),
+                            ) ),
             dashboardBody(
                 tabItems(
                     tabItem(tabName = "Dashboard",

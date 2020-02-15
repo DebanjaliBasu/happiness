@@ -4,11 +4,12 @@
 \alias{get_data}
 \title{Import Happiness report 2019 Data}
 \usage{
-To use this function by itself, store the DF in a variable.
+get_data()
 }
 \description{
 This function reads the data from a csv-file and returns it as a DataFrame-object.
 }
 \examples{
+To store the data in a variable
 df = get_data()
 }
